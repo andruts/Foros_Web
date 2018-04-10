@@ -7,7 +7,7 @@ html, body{
 	padding: 0;
 }
 p {
-	color: white;
+	color: silver;
 	left: auto;
 	right: auto;
 	bottom: auto;
@@ -17,9 +17,16 @@ div{
 	margin: 3px auto;
 }
 
+span{
+	font-family: Consolas;
+	font-size: 14;
+	font-style: italic;
+	color: #95a6b8;
+}
+
 .headerwords{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -28,6 +35,13 @@ div{
 	right: auto;
 	bottom: auto;
 	top: auto;
+}
+
+.forum-topics{
+	font-family: Arial;
+	font-size: 20
+	px;
+	color: #83CCEB;
 }
 
 body{
@@ -91,6 +105,10 @@ div div{
 
 #footer{
 	 background: scroll #6D7A7F;
+}
+
+a{
+	text-decoration: none;
 }
 
 

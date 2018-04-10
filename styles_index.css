@@ -1,0 +1,208 @@
+@charset "utf-8"
+*{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+p {
+	color:white;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	top: auto;
+}
+div{
+	margin: 3px auto;
+}
+
+.headerwords{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+}
+
+body{
+	background-color: white;
+}
+
+footer{
+	background-color: #050514;
+}
+
+div div{
+	background-color: white;
+}
+
+#contenedor{
+	border-color: white;
+	background-color: white;
+}
+
+#top-bar{
+	width: 100%;
+	background-color: 83CCEB;
+}
+
+#logo{
+	background: url(Images/logo.png);
+	width: 100%;
+	height:10px;
+	border: #900 solid 2px;
+	background-position: center;
+	-webkit-background-size: cover;
+
+}
+
+#bar{
+	height: 7%;
+	width: 100%;
+	background-color: #83CCEB;
+}
+
+.divs_left_bar{
+	position: relative;
+	background-color: #83CCEB;
+	width: 150px;
+	text-align: center;
+	height: 50px;
+}
+
+.divs_left_bar a{
+
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	text-align:center;
+	left: 10%;
+	right: auto;
+	top: 3%;
+	bottom: auto;
+}
+
+#bar #left_bar{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #83CCEB;
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	float: left;
+	padding-left: 30px;
+}
+
+#bar #right_bar{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #83CCEB;
+	display: inline-flex;
+	float: right;
+
+}
+
+#bar p:hover{
+	width: auto;
+	background-color: white;
+	color: #83CCEB;
+}
+
+#-ctas{
+	height: 8%;
+	width: 15%;
+	float: right;
+	background-color: #83CCEB;
+	display: inline-flex;
+}
+
+#content{
+	padding: 15%;
+	background-image:url(https://i1.wp.com/cdn.codemyui.com/wp-content/uploads/2016/11/Pure-CSS-Snow-Animation.gif);
+}
+ #content p{
+	 font-family: 'raleway',cursive;
+
+	 color: #6D7A7F;
+	 font-size: 45px;
+
+ }
+#box{
+	background-color:  #1a001a;
+	background: url(Images/guacamaya.jpg) no-repeat center;
+	width: 300px;
+	height: 400px;
+	transition: transform .2s;
+}
+
+#box:hover {
+    transform: scale(2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#accounts{
+	border: solid black 2px;
+	width: 30%;
+	height: 8%;
+}
+
+#accounts a{
+	background-color: black;
+}
+
+#footer{
+	width: 100%;
+	align: bottom;
+	 background: scroll #6D7A7F;
+}
+
+
+/* Boton sign up */
+a[href="signup.html"]:link, a[href="signup.html"]:visited {
+    background-color: ##9999ff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="signup.html"]:hover, a[href="signup.html"]:active {
+    background-color: #babade;
+    color: pink;
+}
+
+/*Log in*/
+a[href="login.html"]:link, a[href="login.html"]:visited {
+
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a[href="login.html"]:hover, a[href="login.html"]:active {
+    color: ;
+}
+
+
+/* Menu principal */
+div[id="-main"] a:link, div[id="-main"] a:visited{
+	  color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div[id="-main"] a:hover, div[id="-main"] a:active{
+	color: 83CCEB;
+	background-color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/**/
