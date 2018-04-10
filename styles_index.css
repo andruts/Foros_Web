@@ -78,7 +78,6 @@ div div{
 }
 
 .divs_left_bar a{
-
 	position: absolute;
 	color: white;
 	text-decoration: none;
@@ -87,6 +86,37 @@ div div{
 	right: auto;
 	top: 3%;
 	bottom: auto;
+}
+
+.divs_right_bar a:hover {
+	background-color: white;
+	color: #83CCEB;
+	width: 100%;
+}
+
+.divs_right_bar{
+	position: relative;
+	background-color: #83CCEB;
+	width: 150px;
+	text-align: center;
+	height: 50px;
+}
+
+.divs_right_bar a{
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	text-align:center;
+	left: 10%;
+	right: auto;
+	top: 3%;
+	bottom: auto;
+}
+
+.divs_left_bar a:hover {
+	background-color: white;
+	color: #83CCEB;
+	width: 100%;
 }
 
 #bar #left_bar{
@@ -158,51 +188,6 @@ div div{
 	width: 100%;
 	align: bottom;
 	 background: scroll #6D7A7F;
-}
-
-
-/* Boton sign up */
-a[href="signup.html"]:link, a[href="signup.html"]:visited {
-    background-color: ##9999ff;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-}
-
-a[href="signup.html"]:hover, a[href="signup.html"]:active {
-    background-color: #babade;
-    color: pink;
-}
-
-/*Log in*/
-a[href="login.html"]:link, a[href="login.html"]:visited {
-
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-}
-
-a[href="login.html"]:hover, a[href="login.html"]:active {
-    color: ;
-}
-
-
-/* Menu principal */
-div[id="-main"] a:link, div[id="-main"] a:visited{
-	  color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-}
-
-div[id="-main"] a:hover, div[id="-main"] a:active{
-	color: 83CCEB;
-	background-color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
 }
 
 /**/
