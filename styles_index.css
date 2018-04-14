@@ -5,6 +5,7 @@
 }
 
 body{
+	font-family: 'Marck Script';
 	margin: 0px;
 	padding: 0px;
 }
@@ -13,10 +14,11 @@ a{
 	background-size: auto;
 	width: auto;
 	height: auto;
+	text-decoration: none;
+	color: white;
 }
 
 .login-signup-button{
-	font-family: 'Marck Script';
 	color: white;
 	height: 50%;
 	width: 100%;
@@ -27,8 +29,10 @@ a{
 	justify-content: center;
 }
 
-.login-signup-button:hover{
+.login-signup-button:hover a{
 	color: #83CCEB;
+	height: 100%;
+	width: 100%;
 	background-color:white;
 }
 
@@ -40,15 +44,19 @@ a{
 	display:inline-flex;
 	align-items: center;
 	justify-content:center;
-	font-family: 'Marck Script';
 	font-weight: bold;
 	font-size:190%;
 	color: white;
 }
 
 
-.top-bar-button:hover {
+.top-bar-button:hover a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	color: #83CCEB;
+	height: 100%;
+	width: 100%;
 	background-color: white;
 }
 
@@ -67,7 +75,6 @@ a{
 }
 
 #web-title{
-	font-family: 'Marck Script';
 	font-size: 400%;
 	width: 60%;
 	height: 100%;
@@ -78,7 +85,6 @@ a{
 }
 
 #web-subtitle{
-	font-family: 'Marck Script';
 	font-size: 200%;
 	width: 30%;
 	height: 100%;
@@ -107,10 +113,69 @@ a{
 	width: 100%;
 }
 
-#botw-name{
-	font-family: 'Marck Script';
-	border: solid black 2px;
-	height: 40%;
-	width: 30%;
+#content{
+	display: inline-flex;
+	height: 60%;
+	width: 100%;
+}
 
+#botw-name{
+	order: 0;
+	height: 40%;
+	width: 28%;
+	font-size: 400%;
+	padding-top: 3%;
+	padding-left: 5%;
+  color: #13A8DB;
+	text-align: right;
+
+}
+
+#botw-img-div{
+	order: 1;
+	display: inline-flex;
+	width: 40%;
+	height: 100%;
+}
+
+#botw-img:hover{
+	 transform: scale(1.25);
+}
+
+#botw-img{
+	margin:auto;
+	width: 50%;
+	height: 70%;
+	transition: transform .3s;
+}
+
+#botw-description-container{
+	order: 2;
+	width: 27%;
+	height: 100%;
+	flex-direction: column;
+	display: inline-flex;
+}
+
+#botw-description-1{
+	font-size: 140%;
+  color: #13A8DB;
+	order: 2;
+	width: 80%;
+	text-align:justify;
+	margin: auto;
+}
+
+#botw-description-2{
+	margin: auto;
+	padding-top: 5%;
+	margin-bottom: 3%;
+	font-size: 140%;
+	color: white;
+	background-color: #83CCEB;
+	order: 2;
+	width: 90%;
+	height: 40%;
+	text-align:center;
+	margin: auto;
 }
