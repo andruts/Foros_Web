@@ -1,1 +1,29 @@
 @charset "UTF-8";
+
+body{
+  background-image: url(Images/yi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+
+#signup{
+
+font-family: 'Marck Script';
+ border: 2px solid #F982FF;
+ border-radius: 25px;
+ background-color: #83CCEB;
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-left: auto;
+ margin-right: auto;
+ height: 70%;
+ width: 25%;
+
+}
+
+label{
+  display: block;
+  }

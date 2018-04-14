@@ -1,88 +1,84 @@
-</!DOCTYPE html>
-<html>
-<head>
-	<title>Sign up - Birb</title>
-	<link rel="stylesheet" type="text/css" href="styles_login_signup_1.css">
-  <link rel="stylesheet" type="text/css" href="styles_login_signup_2.css">
-	<style type="text/css">
-	form {
-	    text-align: center;
-	    width: 25em;
-	    margin: 0 auto;
-	    padding: 1em;
-	    border: 1px solid #E0E0E0;
-	    font-size: 1em;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up to Birb!</title>
+    <link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
+  	<link rel="stylesheet" type="text/css" href="styles_index.css" />
+    <link rel="stylesheet" type="text/css" href="styles_login_signup_1.css">
 
-	    line-height: 1;
-	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-	    background: #F5F5F5;
-	}
-	label {
-	    display: inline-block;
-	    text-align: left;
-	    width: 12em;
-	    vertical-align: bottom;
-	    border-bottom: 1px dashed #CDCDCD;
-	}
-	input {
-	    display: inline-block;
-	    width: 12em;
-	}
-	.subm-rest input {
-	    width: 10em;
-	    margin: 1em;
-	}
-	</style>
-</head>
-<body>
-	<div id="contenedor">
-		<div id="top-bar">
-			<div id="-logo">
-				<a href="index2.html"><img src="Images/logo.png" height="50px" ></a>
-			</div>
-			<div id="-main">
-				<p><a class="headerwords" href="topics.html">Topics</a></p>
-				<p><a class="headerwords" href="users.html" >Users</a></p>
-				<p><a class="headerwords" href="users.html" >Downloads</a></p>
-				<p><a class="headerwords" href="users.html" class="mainMenu">Bird of the day</a></p>
-			</div>
-			<div id="-ctas">
-				<a class="headerwords" href="login.html">Log in</a>
-				<a class="headerwords" href="signup.html">Sign up</a>
-			</div>
-		</div>
-		<div id="content">
-			<p>Red Macaw</p>
-			<div id="box">
+  </head>
+  <body>
+    <div class="container" id="container-1">
+  		<div id="top-bar-1">
+  			<div id="logo">
+  				<a href="index.html"></a>
+  			</div>
+  			<div id="web-title">Birb!</div>
+  			<div id="web-subtitle">Share your love for birds.</div>
+  		</div>
 
-			</div>
-<div id="-SignUp">
-			<form  align="center" >
-					Register a New Member
-					<div>
-							<label for="Username">Username:</label>
-							<input type="text" id="Username" />
-					</div>
-					<div>
-							<label for="CompName">Complete Name:</label>
-							<input type="text" id="CompName" />
-					</div>
-					<div>
-							<label for="mail">E-mail:</label>
-							<input type="email" id="mail" required />
-
-					</div>
-					<div>
-							<label for="password">Password:</label>
-							<input type="password" id="password" />
-							<div class="button">
-									<button type="submit">Send your message</button>
-				</div>
-					</div>
-</div>
+  		<div id="top-bar-2">
+  				<div class="top-bar-button" id="topics-button">Topics</div>
+  				<div class="top-bar-button" id="users-button">Users</div>
+  				<div class="top-bar-button" id="downloads-button">Downloads</div>
+  				<div class="top-bar-button" id="botd-button">Bird of the week</div>
+  				<div id="login-signup-buttons">
+  					<div id="login-button" class="login-signup-button">Login</div>
+  					<div id="signup-button" class="login-signup-button">New here? Sign up</div>
+  				</div>
 
 
+          </div>
+  	 </div>
 
-	</div>
-</body>
+     <div class="SignUp" id="signup" align="center" >
+
+       <div class="Join to Birb!" id="join">
+        <h1>Join to Birb!</h1>
+
+       </div>
+
+       <div class="UserName">
+         <label>User name:</label>
+         <input type="text" name="UserName" id="UserName">
+       </div>
+
+       <div class="Name">
+         <label>Name: </label>
+         <input type="text" name="Name" id="Name" required>
+       </div>
+
+       <div clas="LastName">
+         <label>Last Name:</label>
+        <input type="name" name="LastName" id="LastName" required>
+       </div>
+
+       <div class="E-Mail">
+         <label>E-mail:</label>
+        	<input type="email" id="mail" required >
+       </div>
+
+       <div class ="password">
+         <label>Password:</label>
+         <input type="text" name="password" id="password" required>
+         </div>
+
+       <div class ="Rpassord">
+        <label> Repeat your Password:</label>
+        <input type="text" name="Rpassord" id="Rpassord" required>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">Accept terms and conditions</checkbox>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox">Recive Newselter</input>
+      </div>
+
+      <div class="button">
+         <button type="submit">Register Now!</button>
+      </div>
+
+
+      </div>
 </html>
