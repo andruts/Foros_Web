@@ -1,3 +1,35 @@
-tr[class="menu-users"] td{
-	background-color: #6D7A7F;
+
+.users-content{
+	width: 88%;
+	height: 98%;
+	position: absolute;
+	left: 11%;
+	background: #6D7A7F;
+}
+
+.users-top-bar{
+	display: inline-flex;
+	justify-content: space-around;
+	background: #6D7A7F;
+	width: 100%;
+	height: 10%;
+}
+
+.users-top-bar-button{
+	align-self: auto;
+	height: 100%;
+	width: 14%;
+	background: #C7DCE5;
+	text-align: center;
+}
+
+.users-top-bar-button:hover{
+	background-color: #a6bfc9;
+}
+
+.users-top-bar-button a{
+	font-family: 'Quicksand';
+	font-size: 150%;
+	text-decoration: none;
+	color: white;
 }
